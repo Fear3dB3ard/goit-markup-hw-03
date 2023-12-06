@@ -1,0 +1,221 @@
+:root {
+  --SLATE: #434455;
+  --IRIS: #4d5ae5;
+  --CLOUD: #f4f4fd;
+  --NAVY-BLUE: #2e2f42;
+  --WHITE: #ffffffff;
+  --OCEAN: #404bbf;
+  --CORNFLOWER: #e7e9fc;
+  --text-font-family: "Roboto", sans-serif;
+  --logo-font-family: "Raleway", sans-serif;
+}
+body {
+  background-color: #ffffffff;
+  color: #434455;
+  font-family: var(--text-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/* global styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+/* classes */
+
+/* logo section */
+
+.logo_webstudio {
+  font-family: var(--logo-font-family);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--IRIS), #4d5ae5;
+}
+.studio_icon {
+  color: var(--NAVY-BLUE);
+}
+
+/* list section */
+.list {
+  list-style: none;
+  color: var(--SLATE), #434455;
+}
+.list_item {
+  color: var(--NAVY-BLUE), #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.link {
+  text-decoration: none;
+  color: var(--NAVY-BLUE);
+}
+.link:hover,
+.link:focus {
+  color: var(--OCEAN);
+}
+
+.address_item {
+  font-style: normal;
+  color: var(--SLATE), #434455;
+}
+.contact_item {
+  color: var(--SLATE), #434455;
+}
+
+/* title section */
+
+.title_section {
+  background-color: var(--NAVY-BLUE);
+  color: var(--WHITE);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.title-efectiv-solution {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.book_service_button {
+  font-family: var(--text-font-family);
+  background-color: var(--IRIS);
+  color: var(--WHITE);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  text-align: center;
+}
+.book_service_button:hover,
+:focus {
+  background-color: var(--OCEAN);
+}
+
+.about-section-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+.paragraf-about-section {
+  color: var(--SLATE);
+  text-align: center;
+  background-color: var(--WHITE);
+}
+
+.what-are-we-title {
+  color: var(--NAVY-BLUE);
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+/* our tem section */
+
+.our_team_section {
+  background-color: var(--CLOUD);
+}
+.team_title {
+  color: var(--NAVY-BLUE);
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.our_team_subtitle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  background-color: var(--WHITE), #ffffffff;
+}
+
+.image-bacground {
+  background-color: var(--WHITE);
+  background: var(--WHITE, #fff);
+  justify-content: center;
+}
+.paragraf_item{
+  
+}
+
+/*  navigation menu */
+.navi_menu {
+  font-family: var(--text-font-family);
+  color: var(--IRIS);
+  background-color: var(--CLOUD);
+  cursor: pointer;
+  border: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.navi_menu:hover,
+.navi_menu:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+.subtitle_portfolio_img {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--NAVY-BLUE);
+}
+.subtitle_paragraf {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--SLATE);
+}
+
+/* footer section */
+footer {
+  background-color: var(--NAVY-BLUE);
+}
+.logo_webstudio {
+  color: var(--IRIS);
+}
+.studio_item_foother {
+  color: var(--CLOUD);
+}
+.footer_text {
+  color: var(--CLOUD);
+}
