@@ -37,6 +37,7 @@ a {
 ul {
   list-style-type: none;
 }
+
 /* classes */
 
 /* logo section */
@@ -117,7 +118,7 @@ ul {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0, 15px;
+  padding: 0 15px;
 }
 .title_section {
   background-color: var(--NAVY-BLUE);
@@ -129,6 +130,7 @@ ul {
   width: 1440px;
   height: 600px;
   flex-shrink: 0;
+  padding: 118px 0;
 }
 .title-efectiv-solution {
   font-size: 56px;
@@ -136,7 +138,7 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  width: 496px;
+  max-width: 496px;
 }
 .book_service_button {
   font-family: var(--text-font-family);
@@ -148,6 +150,12 @@ ul {
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
   cursor: pointer;
+  display:block;
+  margin: ;
+  min-width: 169px;
+  height: 56px;
+   border: none;
+   border-radius: 4px ;
 }
 .book_service_button:hover,
 :focus {
