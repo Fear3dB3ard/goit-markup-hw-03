@@ -101,7 +101,7 @@ ul {
 .link {
   text-decoration: none;
   color: var(--NAVY-BLUE);
-}/
+}
 .link:hover,
 .link:focus {
   color: var(--OCEAN);
