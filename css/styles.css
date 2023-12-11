@@ -77,20 +77,13 @@ ul {
   color: var(--NAVY-BLUE);
 }
 .address-item {
- 
-}
-.address-header {
-  font-style: normal;
-  justify-content: space-between;
-  display: flex;
-  margin-left: 36px;
-   color: var(--SLATE), #434455;
+  color: var(--SLATE), #434455;
   font-style: normal;
 }
-.list-add {
+
+.ul.list-add {
   display: flex;
   gap: 40px;
-  margin-left: 36px;
 }
 .contact-info {
   padding-left: 130px;
@@ -386,7 +379,7 @@ footer {
   column-gap: 24px;
   row-gap: 48px;
 }
-.li.img-portfolio {
+.img-portfolio {
   width: calc((100% - 48px) / 3);
 }
 .div-portfolio {
