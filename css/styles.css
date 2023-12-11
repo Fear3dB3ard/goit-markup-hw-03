@@ -76,7 +76,7 @@ ul {
 .studio_icon {
   color: var(--NAVY-BLUE);
 }
-.adress-item {
+.address-item {
   font-style: normal;
   display: flex;
   gap: 40px;
@@ -189,7 +189,7 @@ ul {
   display: flex;
   gap: 24px;
 }
-.title-section-h3 {
+.title-section-h {
   padding: 120px 0;
   display: flex;
 }
