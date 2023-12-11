@@ -76,20 +76,14 @@ ul {
 .studio_icon {
   color: var(--NAVY-BLUE);
 }
-.address-item-list {
-  display: flex;
-  gap: 40px;
+.address-item {
   color: var(--SLATE), #434455;
   font-style: normal;
 }
 .list-adress-item {
   display: flex;
 }
-.list-adress {
-  display: flex;
-  gap: 40px;
-}
-.address-address {
+.list-add {
   display: flex;
   gap: 40px;
 }
