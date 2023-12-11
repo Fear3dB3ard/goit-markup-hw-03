@@ -76,11 +76,11 @@ ul {
 .studio_icon {
   color: var(--NAVY-BLUE);
 }
-.address-item {
+.adress-item {
   font-style: normal;
-  color: var(--SLATE), #434455;
   display: flex;
   gap: 40px;
+  color: var(--SLATE), #434455;
 }
 .list-adress-item{
   display: flex;
