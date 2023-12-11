@@ -89,6 +89,10 @@ ul {
   display: flex;
   gap: 40px;
 }
+.address-address {
+  display: flex;
+  gap: 40px;
+}
 .contact-info {
   padding-left: 130px;
 }
