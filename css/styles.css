@@ -77,14 +77,15 @@ ul {
   color: var(--NAVY-BLUE);
 }
 .address-item {
-  color: var(--SLATE), #434455;
-  font-style: normal;
+ 
 }
 .address-header {
   font-style: normal;
   justify-content: space-between;
   display: flex;
   margin-left: 36px;
+   color: var(--SLATE), #434455;
+  font-style: normal;
 }
 .list-add {
   display: flex;
