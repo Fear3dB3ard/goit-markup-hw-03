@@ -80,7 +80,6 @@ ul {
   color: var(--SLATE), #434455;
   font-style: normal;
 }
-
 .ul.list-add {
   display: flex;
   gap: 40px;
