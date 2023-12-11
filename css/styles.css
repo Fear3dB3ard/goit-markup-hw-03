@@ -80,10 +80,16 @@ ul {
   color: var(--SLATE), #434455;
   font-style: normal;
 }
-
+.address-header {
+  font-style: normal;
+  justify-content: space-between;
+  display: flex;
+  margin-left: 36px;
+}
 .list-add {
   display: flex;
   gap: 40px;
+  margin-left: 36px;
 }
 .contact-info {
   padding-left: 130px;
