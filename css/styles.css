@@ -80,9 +80,7 @@ ul {
   color: var(--SLATE), #434455;
   font-style: normal;
 }
-.list-adress-item {
-  display: flex;
-}
+
 .list-add {
   display: flex;
   gap: 40px;
@@ -110,9 +108,6 @@ ul {
   padding-bottom: 24px;
 }
 
-.last-li {
-  margin-right: 0;
-}
 .link {
   text-decoration: none;
   color: var(--NAVY-BLUE);
