@@ -41,11 +41,11 @@ ul {
 /* classes */
 
 /* logo section */
-.header-section-parent {
+.header-section {
   width: 1440px;
   height: 72px;
   flex-shrink: 0;
-  display: flex;
+
   flex-direction: row;
   align-items: center;
   border-bottom: 1px solid #e7e9fc;
@@ -64,10 +64,8 @@ ul {
   text-transform: uppercase;
   color: var(--IRIS), #4d5ae5;
   padding-top: 24px;
-  margin-right: 76px;
 }
 .child {
-  padding-left: 76px;
   list-style-type: none;
   gap: 40px;
 }
@@ -138,7 +136,7 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   max-width: 496px;
-  margin-left: 400px;
+  margin: 0 auto;
 }
 .book_service_button {
   font-family: var(--text-font-family);
@@ -153,7 +151,6 @@ ul {
   cursor: pointer;
   display: block;
   margin-top: 48px;
-  margin-left: 536px;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -196,7 +193,6 @@ ul {
 }
 .paragraf-about-section {
   color: var(--SLATE);
-  text-align: center;
   background-color: var(--WHITE);
   display: flex;
   width: 264px;
@@ -216,6 +212,7 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin: 0 auto;
   margin-bottom: 72px;
 }
 .what-are-we-doing-list {
