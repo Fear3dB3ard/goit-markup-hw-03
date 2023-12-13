@@ -148,7 +148,6 @@ ul {
 
 /* buton section index */
 
-
 .book_service_button {
   font-family: var(--text-font-family);
   background-color: var(--IRIS);
@@ -337,12 +336,10 @@ ul {
 
 /* footer section */
 
-
 footer {
   background-color: var(--NAVY-BLUE);
   padding: 100px 0;
 }
-
 
 .logo_webstudio {
   color: var(--IRIS);
@@ -351,11 +348,9 @@ footer {
   margin-right: 76px;
 }
 
-
 .studio_item_foother {
   color: var(--CLOUD);
 }
-
 
 .footer_text {
   color: var(--CLOUD);
@@ -369,7 +364,6 @@ footer {
   padding-bottom: 120px;
 }
 
-
 .button_allingment {
   display: flex;
   justify-content: center;
@@ -377,13 +371,10 @@ footer {
   margin-bottom: 72px;
 }
 
-
 .buttons-portfolio {
-  padding: 12px 24px 12px;
   border: 1px solid transparent #e7e9fc;
   border-radius: 4px;
 }
-
 
 .img-list-portfolio {
   display: flex;
